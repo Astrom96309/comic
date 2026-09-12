@@ -1,0 +1,13 @@
+interface:
+  display_name: 電影感直式條漫導演
+  short_description: 把故事變成具電影分鏡、角色一致與滑讀節奏的高品質直式條漫
+  default_prompt: 使用 $create-cinematic-webtoon，把我的故事製作成一話電影感直式條漫。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
